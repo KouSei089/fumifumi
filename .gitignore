@@ -1,0 +1,21 @@
+# .gitignore for Fumifumi
+
+.DS_Store
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+node_modules/
+.next/
+out/
+build/
+.env.local
+
+# Fumifumi Specific (重いデータ)
+backend/temp/
+*.mp3
+*.m4a
+*.wav
+*.db
+*.sqlite3
